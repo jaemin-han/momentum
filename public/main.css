@@ -4,10 +4,41 @@ body {
   font-family: helvetica;
 }
 
+#container {
+  background-color: #222;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 #temp {
   position: absolute;
   font-size: 50px;
   text-shadow: 0 2px 2px #222;
   top: 20px;
   right: 150px;
+}
+
+#time {
+  font-size: 130px;
+  margin-top: -75px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 3px 3px #222;
+  top: 50%;
+  width: 100%;
+}
+
+#quote {
+  bottom: 20px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  text-shadow: 0 3px 3px #222;
+}
+
+img {
+  width: 100%;
 }
