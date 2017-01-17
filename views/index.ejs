@@ -14,7 +14,8 @@
   <body>
     <div id="container">
       <img src="<%= image.urls.regular %>" alt="background image">
-      <div id="temp"><%= icon %><%= Math.floor(weather.main.temp) %>°F</div>
+      <div id="temp"><%= Math.floor(weather.main.temp) %>°F<%= icon %></div>
+      <div id="name">Hello, Jaemin</div>
       <div id="time">12:00 PM</div>
       <div id="quote">"<%= quote.quoteText %>"<br>&mdash;<%= quote.quoteAuthor %></div>
     </div>
